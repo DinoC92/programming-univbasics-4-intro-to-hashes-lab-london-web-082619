@@ -29,7 +29,7 @@ end
 
 def update_counting_hash(hash, key)
   binding.pry
-update_counting_hash = {:hash => 10, :singles => 5}
+update_counting_hash = {:hash => 10, :key => 5}
 if update_counting_hash[:albums]
 update_counting_hash[:albums] += 1
 else 
