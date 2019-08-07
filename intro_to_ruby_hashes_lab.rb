@@ -28,6 +28,6 @@ end
 
 def update_counting_hash(hash, key)
 update_counting_hash = {:albums => 10, :singles => 5}
-update_counting_hash[:albums]
+if update_counting_hash[:albums]
 update_counting_hash[:albums] = 1
 end
