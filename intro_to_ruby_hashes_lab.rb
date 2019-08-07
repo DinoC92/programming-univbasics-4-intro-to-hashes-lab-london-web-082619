@@ -1,4 +1,3 @@
-require 'pry'
 def new_hash
   new_hash = {}
 end
@@ -28,12 +27,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  binding.pry
 if hash[key]
 hash[key] += 1
 else 
   hash[key] = 1
 end 
 end
-
-person = {:name => dino}
