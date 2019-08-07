@@ -29,3 +29,4 @@ end
 def update_counting_hash(hash, key)
 update_counting_hash = {albums => 10, singles => 5}
 albums[10]
+albums[10] = 11
