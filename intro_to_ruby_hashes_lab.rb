@@ -1,3 +1,4 @@
+require 'pry'
 def new_hash
   new_hash = {}
 end
@@ -27,6 +28,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+  binding.pry
 update_counting_hash = {:hash => 10, :singles => 5}
 if update_counting_hash[:albums]
 update_counting_hash[:albums] += 1
